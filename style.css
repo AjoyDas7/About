@@ -1,37 +1,120 @@
 body {
-    font-size: 15pt;
-      font-family: 'Josefin Sans', sans-serif;
-
-    background:#f1f1f1;
-}
-a{
-  color: black;
-  text-decoration: none;
-}
-p{
-  font-family: 'Josefin Sans', sans-serif;
-}
-.image img{
-  
-background: linear-gradient(90deg, rgba(251,63,249,1) 0%, rgba(114,70,252,0.27408542416312476) 100%);
+   font-size: 15pt;
+   background: #eef;
+   margin: 0;
+   padding: 0;
+   font-family: myfont;
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   border:2px solid white;
+   position: relative;
+   border-radius:20px;   box-shadow :4px 4px 10px rgba(80,80,80,.2),-4px -4px 10px   rgba(255,255,255,1) ;
 
 }
-.btn{
-  width:150px;
-    font-family: 'Josefin Sans', sans-serif;
 
+:root {
+   margin: 5%;
+   background: rgba(229, 231, 255, 1);
+   height: 92vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
-.tt{
-  font-family: 'EB Garamond', serif;
+
+* {
+   text-align: center;
 }
-.tx{
+
+.main .logo img {
+   border-radius: 100px;
+   margin-top: 10%;
+   padding: 7px;
+   text-align: center;
+   background: rgba(221, 224, 255, 1);
+   box-shadow: 10px 10px 15px rgba(80, 80, 80, .3), -5px -5px 15px rgba(255, 255, 255, 1);
 }
-.tx i:hover{
-  background:rgba(140,33,255,0.1);
-  border-radius: 50px;
-width: 35px;
-height: 35px;
-display:flex;
-justify-content: center;
-align-items: center;
+
+.logo {
+   text-align: center;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   width: 100%;
+   flex-direction: column;
+}
+
+.main {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+}
+
+@font-face {
+   font-family: myfont;
+   src: url('/JosefinSans-Bold.ttf')
+}
+
+.btn {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   width: 100%;
+   margin-top: 5%;
+}
+
+button {
+   border: none;
+   background: #fff;
+   width: 120px;
+   height: 40px;
+   box-shadow: 10px 10px 15px rgba(80, 80, 80, .3);
+   border-radius: 30px;
+   font-family: myfont;
+}
+
+.theme {
+   position: absolute;
+   top: 3%;
+   right: 4%;
+}
+
+.icons {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   margin-top: 10%;
+   padding-bottom: 4%;
+   width: 80%;
+}
+
+.tw {
+   width: 40px;
+   height: 40px;
+   border-radius: 99px;
+   background: #4889DD;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.tw img {
+   filter: invert(100%);
+}
+
+.wh {
+   background: #70E085;
+   width: 40px;
+   height: 40px;
+   border-radius: 99px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.wh img {
+   filter: invert(100%);
 }
